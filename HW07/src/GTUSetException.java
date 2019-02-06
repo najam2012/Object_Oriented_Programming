@@ -1,9 +1,9 @@
 
 public class GTUSetException extends Exception {
-	public String massage;
+	public String message;
 	public GTUSetException() {}
-	public GTUSetException(String theMassage) {
-		massage = theMassage;
+	public GTUSetException(String theMessage) {
+		message = theMessage;
 	}
-	public String getMessage() { return massage; }
+	public String getMessage() { return message; }
 }
